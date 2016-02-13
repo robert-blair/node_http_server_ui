@@ -1,0 +1,43 @@
+{
+  "name": "project_base",
+  "version": "0.0.0",
+  "description": "a starting point for future projects",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robert-blair/project_base.git"
+  },
+  "keywords": [
+    "project",
+    "base",
+    "start"
+  ],
+  "author": "robert blair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robert-blair/project_base/issues"
+  },
+  "homepage": "https://github.com/robert-blair/project_base#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.2",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^1.3.0",
+    "gulp-typescript": "*",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-postcss": "^6.1.0",
+    "gulp-rucksack": "^0.1.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.2",
+    "lost": "^6.7.1",
+    "postcss-cssnext": "^2.4.0",
+    "postcss-import": "^8.0.2"
+  },
+  "dependencies": {
+    "@reactivex/rxjs": "^5.0.0-beta.2",
+    "lodash": "^4.3.0"
+  }
+}
